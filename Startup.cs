@@ -21,7 +21,7 @@ namespace AdoptAPet
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(Configuration["Data:AdoptAPetAnimals:ConnectionString"]));
+                options.UseSqlServer(Configuration["Data:AdoptAPet:ConnectionString"]));
             services.AddTransient<IAnimalRepository, EFAnimalRepository>();
             //services.AddTransient<IAnimalRepository, FakeAnimalRepository>();
             services.AddMvc();
