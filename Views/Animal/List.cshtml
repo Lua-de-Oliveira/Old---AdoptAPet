@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Animal>
+
+@foreach (var animal in Model)
+{
+    <div>
+        <h3>Nome: @animal.Name</h3>
+        Gênero: @animal.Gender
+        <br />
+        Data de chegada: @animal.DateArrival
+    </div>
+}
