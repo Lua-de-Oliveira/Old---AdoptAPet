@@ -36,6 +36,8 @@ namespace AdoptAPet
                 name: "default",
                 template: "{controller=Animal}/{action=List}/{id?}");
             });
+
+            SeedData.EnsurePopulated(app);
         }
     }
 }
