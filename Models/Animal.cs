@@ -10,6 +10,10 @@ namespace AdoptAPet.Models
         public int AnimalID { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
+        public string Size { get; set; }
         public string DateArrival { get; set; }
+
+        public Category Category { get; set; }
+
     }
 }

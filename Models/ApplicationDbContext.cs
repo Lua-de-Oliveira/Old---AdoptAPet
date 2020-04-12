@@ -9,5 +9,6 @@ namespace AdoptAPet.Models
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options) { }
         public DbSet<Animal> Animals { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
