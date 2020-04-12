@@ -23,6 +23,7 @@ namespace AdoptAPet
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(Configuration["Data:AdoptAPet:ConnectionString"]));
             services.AddTransient<IAnimalRepository, EFAnimalRepository>();
+            services.AddTransient<ICategoryRepository, EFCategoryRepository>();
             //services.AddTransient<IAnimalRepository, FakeAnimalRepository>();
             services.AddMvc();
         }
@@ -33,8 +34,10 @@ namespace AdoptAPet
             app.UseStaticFiles();
             app.UseMvc(routes => {
                 routes.MapRoute(
-                name: "default",
-                template: "{controller=Animal}/{action=List}/{id?}");
+                    name: "default",
+                    //template: "{controller=Animal}/{action=List}/{id?}"
+                    template: "{controller=Home}/{action=Index}"
+                );
             });
 
             SeedData.EnsurePopulated(app);
