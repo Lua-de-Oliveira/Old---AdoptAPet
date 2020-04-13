@@ -1,11 +1,52 @@
 ﻿@model IEnumerable<Animal>
 
-@foreach (var animal in Model)
-{
     <div>
-        <h3>Nome: @animal.Name</h3>
-        Gênero: @animal.Gender
+        <div class="row">
+            <div class="col-10">
+                <h3>Animais</h3>
+            </div>
+            <div class="col-2">
+                <button type="button" 
+                        class="btn btn-outline-info"
+                        asp-action="Create"
+                        asp-controller="Animal"
+                        >Adicionar Animal
+                </button>
+            </div>
+        </div>
         <br />
-        Data de chegada: @animal.DateArrival
+        <div class="row justify-content-center" style="text-align: center !important;">
+            @if (Model.Count() > 0)
+            {
+                <table class="table table-sm table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Gênero</th>
+                            <th>Data de Chegada</th>
+                            <th>Editar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var animal in Model)
+                        {
+                            <tr>
+                                <td>@animal.Name</td>
+                                <td>@animal.Gender</td>
+                                <td>@animal.DateArrival</td>
+                                <td>
+                                    <a asp-action="AnimalProfile" asp-route-AnimalId="@animal.AnimalID">
+                                        Editar
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <h2>Não há nenhum animal cadastrado!</h2>
+            }
+        </div>
     </div>
-}

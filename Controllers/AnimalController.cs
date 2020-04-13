@@ -19,11 +19,5 @@ namespace AdoptAPet.Controllers
         }
 
         public ViewResult List() => View(repository.Animals);
-
-        // GET: /<controller>/
-        //  public IActionResult Index()
-        //   {
-        //    return View();
-        //  }
     }
 }

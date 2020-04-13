@@ -1,0 +1,21 @@
+﻿@model AdoptAPet.Models.Category
+
+@{
+    ViewData["Title"] = "Excluir Categoria";
+}
+
+<h2>Excluir Categoria</h2>
+
+<h5>Tem certeza que deseja excluir esta categoria?</h5>
+<div>
+  
+    <div>
+        <b>Nome da categoria:</b> @Model.Name
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="@Model.CategoryID" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="List">Voltar para lista</a>
+    </form>
+</div>

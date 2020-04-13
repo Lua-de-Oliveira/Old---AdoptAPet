@@ -7,7 +7,6 @@ C:\Users\Lua\source\repos\AdoptAPet\bin\Debug\netcoreapp2.1\AdoptAPet.dll
 C:\Users\Lua\source\repos\AdoptAPet\bin\Debug\netcoreapp2.1\AdoptAPet.pdb
 C:\Users\Lua\source\repos\AdoptAPet\bin\Debug\netcoreapp2.1\AdoptAPet.Views.dll
 C:\Users\Lua\source\repos\AdoptAPet\bin\Debug\netcoreapp2.1\AdoptAPet.Views.pdb
-C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\AdoptAPet.csprojAssemblyReference.cache
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\AdoptAPet.csproj.CoreCompileInputs.cache
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\AdoptAPet.RazorAssemblyInfo.cache
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\AdoptAPet.RazorAssemblyInfo.cs
@@ -17,6 +16,10 @@ C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\AdoptAPet.TagHelpers
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\AdoptAPet.TagHelpers.output.cache
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\AdoptAPet.RazorCoreGenerate.cache
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Animal\List.cshtml.g.cs
+C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Category\Create.cshtml.g.cs
+C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Category\Delete.cshtml.g.cs
+C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Category\Edit.cshtml.g.cs
+C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Category\List.cshtml.g.cs
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs

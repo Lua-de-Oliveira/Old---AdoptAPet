@@ -21,6 +21,16 @@ namespace AdoptAPet.Models
                 );
                 context.SaveChanges();
             }
+
+            if (!context.Categories.Any())
+            {
+                context.Categories.AddRange(
+                    new Category { Name = "Cão" },
+                    new Category { Name = "Gato" },
+                    new Category { Name = "Coelho" }
+                );
+                context.SaveChanges();
+            }
         }
     }
 }

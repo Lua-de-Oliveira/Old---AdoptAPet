@@ -8,5 +8,8 @@ namespace AdoptAPet.Models
     public interface ICategoryRepository
     {
         IQueryable<Category> Categories { get; }
+        void AddCategory(Category newCategory);
+        void EditCategory(Category category);
+        Category DeleteCategory(int categoryID);
     }
 }
