@@ -53,7 +53,7 @@ using AdoptAPet.Models;
             WriteLiteral("\r\n<div>\r\n    <div class=\"row\">\r\n        <div class=\"col-10\">\r\n            <h3>Categorias</h3>\r\n        </div>\r\n        <div class=\"col-2\">\r\n            ");
             EndContext();
             BeginContext(182, 178, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7841fa4742854fe3bf7d55791c7c01bc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2cd0ca90184b4083b2dbd23d08942454", async() => {
                 BeginContext(305, 51, true);
                 WriteLiteral("\r\n                Adicionar Categoria\r\n            ");
                 EndContext();
@@ -111,7 +111,7 @@ using AdoptAPet.Models;
             WriteLiteral("\r\n                                <div style=\"float: right !important;\">\r\n                                    ");
             EndContext();
             BeginContext(1067, 857, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9acb151727e042fcac05025a8ac3b979", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "51b70da771c64c8b87dbdda18a8bd12e", async() => {
                 BeginContext(1132, 788, true);
                 WriteLiteral(@"
                                         <svg class=""bi bi-pencil-square"" width=""1em"" height=""1em"" viewBox=""0 0 16 16"" fill=""currentColor"" xmlns=""http://www.w3.org/2000/svg"">
@@ -151,7 +151,7 @@ using AdoptAPet.Models;
             WriteLiteral("\r\n                                    ");
             EndContext();
             BeginContext(1962, 701, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7e971701b92a478fa83303faf0e1fc9c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7033fea8c2f245fdb9add41e478406cb", async() => {
                 BeginContext(2029, 630, true);
                 WriteLiteral(@"
                                         <svg class=""bi bi-trash-fill"" width=""1em"" height=""1em"" viewBox=""0 0 16 16"" fill=""currentColor"" xmlns=""http://www.w3.org/2000/svg"">

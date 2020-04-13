@@ -54,7 +54,7 @@ using AdoptAPet.Models;
             WriteLiteral("\r\n    <div>\r\n        <div class=\"row\">\r\n            <div class=\"col-10\">\r\n                <h3>Animais</h3>\r\n            </div>\r\n            <div class=\"col-2\">\r\n                ");
             EndContext();
             BeginContext(205, 240, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e8d7cd895764b2c98b70183139c2509", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("button", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be57736fa1a14dd9b52ad142f6ef80d8", async() => {
                 BeginContext(402, 34, true);
                 WriteLiteral("Adicionar Animal\r\n                ");
                 EndContext();
@@ -138,7 +138,7 @@ using AdoptAPet.Models;
             WriteLiteral("</td>\r\n                                <td>\r\n                                    ");
             EndContext();
             BeginContext(1416, 158, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "257e39681ab84842bf7b34ab2864951e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2185ae0369de4b5d862247a6cbe534bf", async() => {
                 BeginContext(1484, 86, true);
                 WriteLiteral("\r\n                                        Editar\r\n                                    ");
                 EndContext();

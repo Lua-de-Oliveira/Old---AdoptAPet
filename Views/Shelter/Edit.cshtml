@@ -1,0 +1,69 @@
+﻿@model AdoptAPet.Models.Shelter
+
+@{
+    ViewData["Title"] = "Editar Abrigo ou Resposável";
+}
+
+<h2>Editar Editar Abrigo ou Resposável</h2>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ShelterID" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Nome</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Street" class="control-label">Logradouro</label>
+                <input asp-for="Street" class="form-control" />
+                <span asp-validation-for="Street" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label">Cidade</label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cep" class="control-label">CEP</label>
+                <input asp-for="Cep" class="form-control" />
+                <span asp-validation-for="Cep" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Number" class="control-label">Número</label>
+                <input asp-for="Number" class="form-control" />
+                <span asp-validation-for="Number" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="State" class="control-label">Estado</label>
+                <input asp-for="State" class="form-control" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label">Telefone</label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CpfOrCnpj" class="control-label">CPF ou CNPJ</label>
+                <input asp-for="CpfOrCnpj" class="form-control" />
+                <span asp-validation-for="CpfOrCnpj" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SocialMedia" class="control-label">Redes Sociais</label>
+                <input asp-for="SocialMedia" class="form-control" />
+                <span asp-validation-for="SocialMedia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">Voltar para lista</a>
+</div>

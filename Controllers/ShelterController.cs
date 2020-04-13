@@ -19,5 +19,56 @@ namespace AdoptAPet.Controllers
         }
 
         public ViewResult List() => View(repository.Shelters);
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Shelter newShelter)
+        {
+            repository.AddShelter(newShelter);
+            return RedirectToAction("List");
+        }
+
+        public ViewResult Edit(int shelterID) =>
+           View(repository.Shelters
+           .FirstOrDefault(shelter => shelter.ShelterID == shelterID)
+       );
+
+        [HttpPost]
+        public IActionResult Edit(Shelter shelter)
+        {
+            if (ModelState.IsValid)
+            {
+                repository.EditShelter(shelter);
+                TempData["message"] = "Alterado com sucesso!";
+                return RedirectToAction("List");
+            }
+            else
+            {
+                return View(shelter);
+            }
+        }
+
+        public ViewResult Delete(Shelter shelter)
+        {
+            var s = repository.Shelters
+                .FirstOrDefault(m => m.ShelterID == shelter.ShelterID);
+
+            return View(s);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult Delete(int shelterID)
+        {
+            Shelter deleteShelter = repository.DeleteShelter(shelterID);
+            if (deleteShelter != null)
+            {
+                TempData["message"] = $"{deleteShelter.Name} foi excluido.";
+            }
+            return RedirectToAction("List");
+        }
     }
 }

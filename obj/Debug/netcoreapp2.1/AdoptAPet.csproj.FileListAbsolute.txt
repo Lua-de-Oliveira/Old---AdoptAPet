@@ -22,6 +22,10 @@ C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Category
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Category\List.cshtml.g.cs
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Shelter\Create.cshtml.g.cs
+C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Shelter\Delete.cshtml.g.cs
+C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Shelter\Edit.cshtml.g.cs
+C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\Shelter\List.cshtml.g.cs
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Lua\source\repos\AdoptAPet\obj\Debug\netcoreapp2.1\AdoptAPet.RazorTargetAssemblyInfo.cache

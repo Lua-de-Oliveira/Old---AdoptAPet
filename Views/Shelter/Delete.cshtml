@@ -1,0 +1,25 @@
+﻿@model AdoptAPet.Models.Shelter
+
+@{
+    ViewData["Title"] = "Excluir Abrigo ou Responsável";
+}
+
+    <h2>Excluir Abrigo ou Responsável</h2>
+
+    <h5>Tem certeza que deseja excluir este Abrigo ou Responsável?</h5>
+<div>
+
+    <div>
+        <h6>Dados do Abrigo ou Responsável:</h6>
+        <br />
+        <p><b>Nome:</b> @Model.Name</p>
+        <p><b>CPF ou CNPJ:</b> @Model.CpfOrCnpj</p>
+        <br />
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="@Model.ShelterID" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="List">Voltar para lista</a>
+    </form>
+</div>

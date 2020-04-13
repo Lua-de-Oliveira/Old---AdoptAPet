@@ -8,5 +8,9 @@ namespace AdoptAPet.Models
     public interface IShelterRepository
     {
         IQueryable<Shelter> Shelters { get; }
+
+        void AddShelter(Shelter newShelter);
+        void EditShelter(Shelter newShelter);
+        Shelter DeleteShelter(int shelterID);
     }
 }
