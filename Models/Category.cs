@@ -9,5 +9,7 @@ namespace AdoptAPet.Models
     {
         public int CategoryID { get; set; }
         public string Name { get; set; }
+
+        public List<Animal> Animais = new List<Animal>();
     }
 }

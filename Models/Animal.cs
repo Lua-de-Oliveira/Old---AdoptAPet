@@ -14,6 +14,6 @@ namespace AdoptAPet.Models
         public string DateArrival { get; set; }
 
         public Category Category { get; set; }
-
+        public Shelter Shelter { get; set; }
     }
 }

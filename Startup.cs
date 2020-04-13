@@ -24,6 +24,7 @@ namespace AdoptAPet
                 options.UseSqlServer(Configuration["Data:AdoptAPet:ConnectionString"]));
             services.AddTransient<IAnimalRepository, EFAnimalRepository>();
             services.AddTransient<ICategoryRepository, EFCategoryRepository>();
+            services.AddTransient<IShelterRepository, EFShelterRepository>();
             //services.AddTransient<IAnimalRepository, FakeAnimalRepository>();
             services.AddMvc();
         }

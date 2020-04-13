@@ -10,5 +10,6 @@ namespace AdoptAPet.Models
             : base(options) { }
         public DbSet<Animal> Animals { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Shelter> Shelters { get; set; }
     }
 }
